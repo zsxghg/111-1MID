@@ -12,7 +12,6 @@
         <div>
         <h1><asp:Label ID="Label1" runat="server" >線上掛號系統</asp:Label></h1>
         <h2><asp:Label ID="Label2" runat="server" >||掛號資訊</asp:Label></h2>
-        <asp:Panel ID="Panel1" runat="server" Width="500px" BorderWidth="1px" Height="150px"></asp:Panel>
         <h3><asp:Label ID="lb_Type" runat="server" Text="Label">初診</asp:Label></h3>
         <asp:RadioButton ID="rb_Id" runat="server" GroupName="rb_type" BorderStyle="NotSet" Text="身分證字號" />  
         <asp:RadioButton ID="rb_Hid" runat="server" GroupName="rb_type" BorderStyle="NotSet" Text="病歷號" /><br />
